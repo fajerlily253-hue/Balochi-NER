@@ -26,7 +26,7 @@ labels = []
 current_sentence = []
 current_label = []
 
-with open("path of your database ", "r", encoding="utf-8") as f:
+with open("path of your dataset ", "r", encoding="utf-8") as f:
     for line in f:
         line = line.strip()
 
